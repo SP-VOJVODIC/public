@@ -2,10 +2,11 @@
   "product": "Knjigovodstvo",
   "version": "26.2.21.1-677",
   "asset_name": "KnjigovodstvoRV-2026-02-21-125119 (26.2.21.1-677).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/26.2.21.1.677/KnjigovodstvoRV-2026-02-21-125119 (26.2.21.1-677).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.21.1.677/KnjigovodstvoRV-2026-02-21-125119 (26.2.21.1-677).upg",
   "notes": "Dodana je podrška za prijavu problema putem helpdesk-a i mogućnost da se download-uje update sa interneta",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
