@@ -1,11 +1,12 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.2.22.1-678",
-  "asset_name": "KnjigovodstvoRV-2026-02-22-083414 (26.2.22.1-678).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.22.1.678/KnjigovodstvoRV-2026-02-22-083414.26.2.22.1-678.upg",
+  "version": "26.2.22.2-681",
+  "asset_name": "KnjigovodstvoRV-2026-02-22-143141 (26.2.22.2-681).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.22.2.681/KnjigovodstvoRV-2026-02-22-143141.26.2.22.2-681.upg",
   "notes": "Ispravka ponašanja padajućih lista (sada je uvijek prva lijeva kolona sortirana rastućim redosledom)",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
