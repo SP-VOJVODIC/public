@@ -1,11 +1,12 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.2.22.2-681",
-  "asset_name": "KnjigovodstvoRV-2026-02-22-143141 (26.2.22.2-681).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.22.2.681/KnjigovodstvoRV-2026-02-22-143141.26.2.22.2-681.upg",
-  "notes": "Ispravka ponašanja padajućih lista (sada je uvijek prva lijeva kolona sortirana rastućim redosledom)",
+  "version": "26.2.23.1-686",
+  "asset_name": "KnjigovodstvoRV-2026-02-23-192642 (26.2.23.2-686).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.23.1.686/KnjigovodstvoRV-2026-02-23-192642.26.2.23.2-686.upg",
+  "notes": "Omogućeno štampanje fiskalnih računa i kas se unose usluge bez šifara",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
