@@ -1,11 +1,12 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.2.25.1-688",
-  "asset_name": "KnjigovodstvoRV-2026-02-25-194506 (26.2.25.1-688).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.25.1.688/KnjigovodstvoRV-2026-02-25-194506.26.2.25.1-688.upg",
+  "version": "26.2.27.1-691",
+  "asset_name": "KnjigovodstvoRV-2026-02-27-220955 (26.2.27.1-691).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.27.1.691/KnjigovodstvoRV-2026-02-27-220955.26.2.27.1-691.upg",
   "notes": "Ispravaka prikaza zadužene ambalaže na izlaznom računu. Ispravka prikaza naziva robe prilikom unos astavki računa na pazaru",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
