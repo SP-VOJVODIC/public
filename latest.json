@@ -3,9 +3,10 @@
   "version": "26.2.27.1-691",
   "asset_name": "KnjigovodstvoRV-2026-02-27-220955 (26.2.27.1-691).upg",
   "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.2.27.1.691/KnjigovodstvoRV-2026-02-27-220955.26.2.27.1-691.upg",
-  "notes": "Ispravaka prikaza zadužene ambalaže na izlaznom računu. Ispravka prikaza naziva robe prilikom unos astavki računa na pazaru",
+  "notes": "Omogućen unos konta na troškovima kalkulacije.",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
