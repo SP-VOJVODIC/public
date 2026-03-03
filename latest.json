@@ -1,11 +1,12 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.3.1.1-693",
-  "asset_name": "KnjigovodstvoRV-2026-03-01-213112 (26.3.1.1-693).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.1.1.693/KnjigovodstvoRV-2026-03-01-213112.26.3.1.1-693.upg",
-  "notes": "ispravljena forma kalkulacije i izvještaj nakon dodavanja konta u troškove kalkulacije.",
+  "version": "26.3.3.1-693",
+  "asset_name": "KnjigovodstvoRV-2026-03-03-131356 (26.3.3.1-693).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.3.1.693/KnjigovodstvoRV-2026-03-03-131356.26.3.3.1-693.upg",
+  "notes": "Ispravljena greška kod troškova nakon dodavanja opcionog konta u troškovima, Ispravljena greška kod obrade konta u izlaznim računima za stavke kod kojih nije unesena šifra robe ili usluge",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
