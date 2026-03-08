@@ -1,11 +1,12 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.3.7.1-694",
-  "asset_name": "KnjigovodstvoRV-2026-03-07-172018 (26.3.7.1-694).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.7.1.694/KnjigovodstvoRV-2026-03-07-172018.26.3.7.1-694.upg",
-  "notes": "Omogućen je pregled prometa fiskalne kase, omogućen pregled i kopiranje slike jednog fiskalnog računa.",
+  "version": "26.3.8.1-706",
+  "asset_name": "KnjigovodstvoRV-2026-03-08-220352 (26.3.8.1-706).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.8.1.706/KnjigovodstvoRV-2026-03-08-220352.26.3.8.1-706.upg",
+  "notes": "Omogućeno je praćenje faktura i računa koji nisu poslani na štampu i selektivni prikaz rabata, zavisno od postavke na komitentu.",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
+
 
 
 
