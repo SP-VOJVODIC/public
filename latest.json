@@ -1,9 +1,9 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.3.13.1-725",
-  "asset_name": "KnjigovodstvoRV-2026-03-13-191127 (26.3.13.1-725).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.13.1.725/KnjigovodstvoRV-2026-03-13-191127.26.3.13.1-725.upg",
-  "notes": "Izmjena sistema za podešavanje fiskalnih oznaka za način plaćanja i tarife. Dodan broj računa na fikalni račun kao slobodan tekst.",
+  "version": "26.3.18.2-725",
+  "asset_name": "KnjigovodstvoRV-2026-03-18-234409 (26.3.18.2-725).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.18.2.725/KnjigovodstvoRV-2026-03-18-234409.26.3.18.2-725.upg",
+  "notes": "dodana je mogućnost screenshota prilikom prijave greške.",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
 
