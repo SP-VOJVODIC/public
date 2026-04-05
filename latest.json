@@ -1,8 +1,8 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.3.20.1-725",
-  "asset_name": "KnjigovodstvoRV-2026-03-20-180413 (26.3.20.1-725).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.20.1.725/KnjigovodstvoRV-2026-03-20-180413.26.3.20.1-725.upg",
+  "version": "26.4.5.1-742",
+  "asset_name": "KnjigovodstvoRV-2026-04-05-095243 (26.4.5.1-742).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.4.5.1.742/KnjigovodstvoRV-2026-04-05-095243.26.4.5.1-742.upg",
   "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.3.20.1.725/Novosti.u.programu.pdf",
   "notes": "Onemogućeno brisanje dokumenta sa stavkama u robnom bez specijlne permisije.",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
