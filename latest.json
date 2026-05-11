@@ -1,10 +1,10 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.4.19.1-752",
-  "asset_name": "KnjigovodstvoRV-2026-04-19-105541 (26.4.19.1-752).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.4.19.1.752/KnjigovodstvoRV-2026-04-19-105541.26.4.19.1-752.upg",
-  "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.4.19.1.752/Novosti.u.programu.2024-04-19.pdf",
-  "notes": "Onemogućeno brisanje dokumenta sa stavkama u robnom bez specijlne permisije.",
+  "version": "26.5.11.1-763",
+  "asset_name": "KnjigovodstvoRV-2026-05-11-195139 (26.5.11.1-763).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.11.1.763/KnjigovodstvoRV-2026-05-11-195139.26.5.11.1-763.upgg",
+  "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.11.1.763/Novosti.u.programu.2026-05-11.pdf",
+  "notes": "Prepravljen je šifarnik roba, materijala i usluga, tako da se prikazuje u stranicam po 25 redova zbog performansi sistema. Omogućen je brzi unos komercijalista sa minimalno potrebnim podacima u šifarniku komercijalista.",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
 
