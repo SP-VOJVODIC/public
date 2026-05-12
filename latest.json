@@ -1,7 +1,7 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.5.11.1-763",
-  "asset_name": "KnjigovodstvoRV-2026-05-11-195139 (26.5.11.1-763).upg",
+  "version": "26.5.12.1-764",
+  "asset_name": "KnjigovodstvoRV-2026-05-12-072051 (26.5.8.1-764).upg",
   "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.11.1.764/KnjigovodstvoRV-2026-05-12-072051.26.5.8.1-764.upg",
   "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.11.1.763/Novosti.u.programu.2026-05-11.pdf",
   "notes": "Prepravljen je šifarnik roba, materijala i usluga, tako da se prikazuje u stranicam po 25 redova zbog performansi sistema. Omogućen je brzi unos komercijalista sa minimalno potrebnim podacima u šifarniku komercijalista.",
