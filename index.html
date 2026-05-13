@@ -1,0 +1,93 @@
+﻿<!doctype html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knjigovodstvo ERP</title>
+  <meta name="description" content="Knjigovodstvo ERP - informacije o verzijama, preuzimanju i prijavi problema.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">SP Vojvodic</p>
+        <h1>Knjigovodstvo ERP</h1>
+        <p class="lead">
+          Poslovna aplikacija za knjigovodstvo, robno poslovanje, finansije,
+          izvjestaje i pratece poslovne evidencije.
+        </p>
+
+        <div class="actions">
+          <a class="button button--primary" href="https://github.com/SP-VOJVODIC/public/releases">
+            Preuzmi zadnju verziju
+          </a>
+          <a class="button" href="https://github.com/SP-VOJVODIC/DELPHI11/issues">
+            Prijavi problem
+          </a>
+        </div>
+      </div>
+
+      <aside class="version-card">
+        <span class="card-label">Trenutna verzija</span>
+        <strong id="latest-version">Ucitavanje...</strong>
+        <p id="latest-date">Podaci se citaju iz latest.json.</p>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <article>
+        <h2>Preuzimanje</h2>
+        <p>
+          Javne verzije aplikacije objavljuju se kroz GitHub Releases repozitorija
+          <strong>SP-VOJVODIC/public</strong>.
+        </p>
+        <a href="https://github.com/SP-VOJVODIC/public/releases">Otvori releases</a>
+      </article>
+
+      <article>
+        <h2>Automatska provjera verzije</h2>
+        <p>
+          Aplikacija koristi <code>latest.json</code> za provjeru dostupne verzije
+          i informacija potrebnih za preuzimanje.
+        </p>
+        <a href="https://github.com/SP-VOJVODIC/public/blob/develop/latest.json">Pogledaj latest.json</a>
+      </article>
+
+      <article>
+        <h2>Podrska</h2>
+        <p>
+          Probleme, prijedloge i zahtjeve korisnici prijavljuju kroz GitHub Issues.
+        </p>
+        <a href="https://github.com/SP-VOJVODIC/DELPHI11/issues">Otvori issues</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>Knjigovodstvo ERP</span>
+    <span>SP Vojvodic</span>
+  </footer>
+
+  <script>
+    fetch("https://raw.githubusercontent.com/SP-VOJVODIC/public/develop/latest.json", { cache: "no-store" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("latest.json nije dostupan");
+        return response.json();
+      })
+      .then(function (data) {
+        var version = data.version || data.Version || data.tag || data.name || "Dostupno";
+        var date = data.date || data.Date || data.published_at || "";
+
+        document.getElementById("latest-version").textContent = version;
+        document.getElementById("latest-date").textContent = date
+          ? "Objavljeno: " + date
+          : "Detalji su dostupni u latest.json.";
+      })
+      .catch(function () {
+        document.getElementById("latest-version").textContent = "Provjeri releases";
+        document.getElementById("latest-date").textContent = "Nije moguce ucitati latest.json.";
+      });
+  </script>
+</body>
+</html>
