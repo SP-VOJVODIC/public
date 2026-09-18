@@ -4,7 +4,7 @@
   "asset_name": "KnjigovodstvoRV-2026-09-18-075956 (26.9.13.1-793).upg",
   "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.9.13.1.793/KnjigovodstvoRV-2026-09-18-075956.26.9.13.1-793.upg",
   "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.16.1.766/Novosti.u.programu.2026-05-16.pdf",
-  "notes": "Postavljene su izmjene vezane za portal za kupce",
+  "notes": "Dodan je mogucnost prikaza stavki sa stanjem 0 na listi Stanjena dan",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
 }
 
