@@ -1,8 +1,8 @@
 {
   "product": "Knjigovodstvo",
-  "version": "26.6.27.1-770",
-  "asset_name": "KnjigovodstvoRV-2026-09-13-223441 (26.9.13.1-792).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.9.13.1.792/KnjigovodstvoRV-2026-09-13-223441.26.9.13.1-792.upg",
+  "version": "26.9.13.1-793",
+  "asset_name": "KnjigovodstvoRV-2026-09-18-075956 (26.9.13.1-793).upg",
+  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.9.13.1.793/KnjigovodstvoRV-2026-09-18-075956.26.9.13.1-793.upg",
   "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.16.1.766/Novosti.u.programu.2026-05-16.pdf",
   "notes": "Postavljene su izmjene vezane za portal za kupce",
   "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
