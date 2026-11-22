@@ -1,37 +1,38 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="sr-Latn">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Knjigovodstvo ERP</title>
-  <meta name="description" content="Knjigovodstvo ERP - informacije o verzijama, preuzimanju i prijavi problema.">
+  <meta name="description" content="Knjigovodstvo ERP - informacije o verzijama, preuzimanju i novostima.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main class="page">
     <section class="hero">
       <div class="hero__content">
-        <p class="eyebrow">SP Vojvodic</p>
+        <p class="eyebrow"><a href="https://sp-vojvodic.github.io/" style="color:inherit;text-decoration:none">SP Vojvodić</a></p>
         <h1>Knjigovodstvo ERP</h1>
         <p class="lead">
           Poslovna aplikacija za knjigovodstvo, robno poslovanje, finansije,
-          izvjestaje i pratece poslovne evidencije.
+          izvještaje i prateće poslovne evidencije.
         </p>
 
         <div class="actions">
-          <a class="button button--primary" href="https://github.com/SP-VOJVODIC/public/releases">
+          <a class="button button--primary" id="btn-download" href="https://github.com/SP-VOJVODIC/public/releases/latest">
             Preuzmi zadnju verziju
           </a>
-          <a class="button" href="https://github.com/SP-VOJVODIC/DELPHI11/issues">
-            Prijavi problem
+          <a class="button" href="https://github.com/SP-VOJVODIC/public/releases">
+            Sve verzije
           </a>
         </div>
       </div>
 
       <aside class="version-card">
         <span class="card-label">Trenutna verzija</span>
-        <strong id="latest-version">Ucitavanje...</strong>
-        <p id="latest-date">Podaci se citaju iz latest.json.</p>
+        <strong id="latest-version">Učitavanje…</strong>
+        <p id="latest-date">&nbsp;</p>
+        <p><a id="latest-novosti" href="https://github.com/SP-VOJVODIC/public/releases/latest">Šta je novo (PDF)</a></p>
       </aside>
     </section>
 
@@ -39,55 +40,40 @@
       <article>
         <h2>Preuzimanje</h2>
         <p>
-          Javne verzije aplikacije objavljuju se kroz GitHub Releases repozitorija
-          <strong>SP-VOJVODIC/public</strong>.
+          Nove verzije objavljuju se kao paket <code>.upg</code> sa PDF-om novosti.
+          Paket se prima kroz program (Alati → Nova verzija).
         </p>
-        <a href="https://github.com/SP-VOJVODIC/public/releases">Otvori releases</a>
+        <a href="https://github.com/SP-VOJVODIC/public/releases">Otvori verzije</a>
       </article>
 
       <article>
         <h2>Automatska provjera verzije</h2>
         <p>
-          Aplikacija koristi <code>latest.json</code> za provjeru dostupne verzije
-          i informacija potrebnih za preuzimanje.
+          Program pri pokretanju čita <code>latest.json</code> i javlja kad je
+          dostupna nova verzija.
         </p>
         <a href="https://github.com/SP-VOJVODIC/public/blob/develop/latest.json">Pogledaj latest.json</a>
       </article>
 
       <article>
-        <h2>Podrska</h2>
+        <h2>Podrška</h2>
         <p>
-          Probleme, prijedloge i zahtjeve korisnici prijavljuju kroz GitHub Issues.
+          Za pomoć, prijavu problema i zahtjeve obratite se SP Vojvodić.
         </p>
-        <a href="https://github.com/SP-VOJVODIC/DELPHI11/issues">Otvori issues</a>
       </article>
+    </section>
+
+    <section class="notes" id="notes-section" hidden>
+      <h2>Novo u zadnjoj verziji</h2>
+      <ul id="notes"></ul>
     </section>
   </main>
 
   <footer>
     <span>Knjigovodstvo ERP</span>
-    <span>SP Vojvodic</span>
+    <span>SP Vojvodić</span>
   </footer>
 
-  <script>
-    fetch("https://raw.githubusercontent.com/SP-VOJVODIC/public/develop/latest.json", { cache: "no-store" })
-      .then(function (response) {
-        if (!response.ok) throw new Error("latest.json nije dostupan");
-        return response.json();
-      })
-      .then(function (data) {
-        var version = data.version || data.Version || data.tag || data.name || "Dostupno";
-        var date = data.date || data.Date || data.published_at || "";
-
-        document.getElementById("latest-version").textContent = version;
-        document.getElementById("latest-date").textContent = date
-          ? "Objavljeno: " + date
-          : "Detalji su dostupni u latest.json.";
-      })
-      .catch(function () {
-        document.getElementById("latest-version").textContent = "Provjeri releases";
-        document.getElementById("latest-date").textContent = "Nije moguce ucitati latest.json.";
-      });
-  </script>
+  <script src="verzija.js"></script>
 </body>
 </html>
