@@ -206,3 +206,62 @@ footer {
   padding-left: 20px;
   color: var(--muted);
 }
+
+.shot {
+  margin: 18px 0 0;
+  padding: 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.shot figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+.about {
+  margin-top: 18px;
+  padding: 28px 32px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.about h2 {
+  margin-bottom: 14px;
+}
+
+.about p {
+  margin: 0 0 12px;
+  max-width: 900px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.notes details {
+  border-top: 1px solid var(--line);
+  padding: 10px 0;
+}
+
+.notes details:first-child {
+  border-top: 0;
+}
+
+.notes summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.notes details ul {
+  margin-top: 8px;
+}
