@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Knjigovodstvo ERP</title>
-  <meta name="description" content="Knjigovodstvo ERP - informacije o verzijama, preuzimanju i novostima.">
+  <meta name="description" content="Knjigovodstvo ERP - poslovni softver za knjigovodstvo, robno poslovanje, kasu i plate. Zadnja verzija i novosti.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,9 +22,7 @@
           <a class="button button--primary" id="btn-download" href="https://github.com/SP-VOJVODIC/public/releases/latest">
             Preuzmi zadnju verziju
           </a>
-          <a class="button" href="https://github.com/SP-VOJVODIC/public/releases">
-            Sve verzije
-          </a>
+          <a class="button" href="#istorija">Istorija novosti</a>
         </div>
       </div>
 
@@ -36,23 +34,54 @@
       </aside>
     </section>
 
+    <figure class="shot">
+      <img src="glavni-ekran.png" width="1400" height="758" alt="Glavni ekran programa Knjigovodstvo ERP sa dashboardom prometa, marže, zaliha i kupaca">
+      <figcaption>Glavni ekran: lista zadataka po modulima i dashboard sa ključnim pokazateljima poslovanja.</figcaption>
+    </figure>
+
+    <section class="about">
+      <h2>O programu</h2>
+      <p>
+        Knjigovodstvo ERP je Windows aplikacija za vođenje kompletnog poslovanja malih i srednjih
+        preduzeća i knjigovodstvenih agencija, nad bazom Microsoft SQL Server.
+        Glavna knjiga, KIF i KUF, blagajna i izvodi vode se u istom programu kao i robno poslovanje,
+        tako da se dokumenti iz prometa automatski knjiže u finansije.
+        Robno poslovanje pokriva primke, kalkulacije, nivelacije, izlazne račune, međuskladišnice,
+        inventure i otpis, uz trgovačku knjigu i kartice artikala.
+      </p>
+      <p>
+        Maloprodaju podržava kasa (POS terminal), a narudžbe kupaca mogu stizati i preko web portala
+        direktno u program.
+        Modul plata i kadrovske evidencije obračunava zarade i doprinose, a moduli osnovnih sredstava,
+        hartija od vrijednosti, proizvodnje, pravne službe i knjige pošte zaokružuju poslovanje.
+        Dashboard na glavnom ekranu odmah po prijavi pokazuje promet, neto maržu, potraživanja,
+        zalihe i kupce u odnosu na prošlu godinu, a raspored kartica svaki korisnik bira sam.
+      </p>
+      <p>
+        Svaki izvještaj može se odštampati, sačuvati kao PDF ili prebaciti u Excel, a tabelarni
+        izvještaji se otvaraju i u ugrađenim tabelama.
+        Prava pristupa podešavaju se po korisniku i grupi, sve do pojedinačne akcije, a promjene
+        podataka bilježe se u log promjena.
+        Program pri pokretanju sam provjerava novu verziju; ažuriranje je kumulativno, pa je dovoljno
+        preuzeti samo zadnji paket, koji donosi sve prethodne izmjene i ispravke baze.
+      </p>
+    </section>
+
     <section class="grid">
       <article>
         <h2>Preuzimanje</h2>
         <p>
-          Nove verzije objavljuju se kao paket <code>.upg</code> sa PDF-om novosti.
-          Paket se prima kroz program (Alati → Nova verzija).
+          Ažuriranje je kumulativno: zadnji paket <code>.upg</code> sadrži sve prethodne verzije.
+          Prima se kroz program (Alati → Nova verzija).
         </p>
-        <a href="https://github.com/SP-VOJVODIC/public/releases">Otvori verzije</a>
+        <a id="link-download" href="https://github.com/SP-VOJVODIC/public/releases/latest">Preuzmi zadnju verziju</a>
       </article>
 
       <article>
         <h2>Automatska provjera verzije</h2>
         <p>
-          Program pri pokretanju čita <code>latest.json</code> i javlja kad je
-          dostupna nova verzija.
+          Program pri pokretanju provjerava da li postoji nova verzija i nudi njeno preuzimanje.
         </p>
-        <a href="https://github.com/SP-VOJVODIC/public/blob/develop/latest.json">Pogledaj latest.json</a>
       </article>
 
       <article>
@@ -67,6 +96,11 @@
     <section class="notes" id="notes-section" hidden>
       <h2>Novo u zadnjoj verziji</h2>
       <ul id="notes"></ul>
+    </section>
+
+    <section class="notes" id="istorija" hidden>
+      <h2>Istorija novosti po verzijama</h2>
+      <div id="istorija-lista"></div>
     </section>
   </main>
 
