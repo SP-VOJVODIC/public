@@ -1,36 +1,9 @@
 {
-  "product": "Knjigovodstvo",
-  "version": "26.9.13.1-793",
-  "asset_name": "KnjigovodstvoRV-2026-09-18-075956 (26.9.13.1-793).upg",
-  "download_url": "https://github.com/SP-VOJVODIC/public/releases/download/26.9.13.1.793/KnjigovodstvoRV-2026-09-18-075956.26.9.13.1-793.upg",
-  "novosti": "https://github.com/SP-VOJVODIC/public/releases/download/26.5.16.1.766/Novosti.u.programu.2026-05-16.pdf",
-  "notes": "Dodan je mogucnost prikaza stavki sa stanjem 0 na listi Stanjena dan",
-  "download_page": "https://github.com/SP-Vojvodic/public/releases/latest"
+    "product":  "Knjigovodstvo",
+    "version":  "26.11.22.0-901",
+    "asset_name":  "KnjigovodstvoRV-2026-11-22-112053 (26.11.22.0-901).upg",
+    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.22.0.901/KnjigovodstvoRV-2026-11-22-112053.26.11.22.0-901.upg",
+    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.22.0.901/Novosti-26.11.22.0-901.pdf",
+    "notes":  "- Robno - Otpis i usklađivanje stanja po razlozima\n- Šifarnik razloga usklađivanja stanja\n- Usklađivanje - ispravka pogrešno evidentirane šifre\n- Primka - vrsta lagera na zaglavlju\n- Robno - formiraj kalkulaciju iz primke\n- Alati - uređivač dokumenata, tabele i pregled PDF-a\n- Tabelarni izvještaji - otvori u Tabelama\n- Alati - pregled PDF-a sa uvećanjem i traženjem\n- Šta je novo - novosti verzije u Pregledu PDF-a\n- Interna faktura - razlog otpisa\n- Trgovačka knjiga - otpis u koloni zaduženja\n- Glavna knjiga - knjiženje usklađivanja prema trgovačkoj knjizi\n- KIF - vrsta KIF-a sa računa\n- Robno - brže automatsko knjiženje i nivelacija\n- Glavna knjiga - brže automatsko knjiženje međuskladišnica\n- Robno - vrste lagera za inventure i materijalno\n- Ažuriranje - kontrole u dnevniku\n- Robno - prikaži kalkulaciju sa primke\n- Robno - brže knjiženje dokumenata\n- Izlazni račun - povezivanje sa narudžbom kupca\n- Trgovačka knjiga - nivelacija kretanja\n- Dashboard - tačan promet, neto marža i današnji promet\n- Robno - rabat kase u dnevniku\n- Robno - knjiženje primke bez lagera\n- Kasa - pazar sa portala prvi radni dan u 07:00\n- Portal - narudžba sa negativnim rabatom",
+    "download_page":  "https://github.com/SP-VOJVODIC/Public/releases/latest"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
