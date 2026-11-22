@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --bg: #f5f7fa;
   --text: #172033;
   --muted: #5c677a;
@@ -182,4 +182,27 @@ footer {
   footer span {
     display: block;
   }
+}
+
+.version-card p + p {
+  margin-top: 12px;
+}
+
+.version-card a {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.notes {
+  margin-top: 18px;
+  padding: 22px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.notes ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
 }
