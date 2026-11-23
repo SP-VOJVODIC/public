@@ -1,9 +1,9 @@
 {
     "product":  "Knjigovodstvo",
-    "version":  "26.11.22.1-904",
-    "asset_name":  "KnjigovodstvoRV-2026-11-22-194740 (26.11.22.1-904).upg",
-    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.22.1.904/KnjigovodstvoRV-2026-11-22-194740.26.11.22.1-904.upg",
-    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.22.1.904/Novosti-26.11.22.1-904.pdf",
-    "notes":  "- Log promjena - odvojena tabela loga sa nazivom originala\n- Log promjena i izvještaji GK za više godina bez proxy naloga",
+    "version":  "26.11.23.0-907",
+    "asset_name":  "KnjigovodstvoRV-2026-11-23-233756 (26.11.23.0-907).upg",
+    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.23.0.907/KnjigovodstvoRV-2026-11-23-233756.26.11.23.0-907.upg",
+    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.23.0.907/Novosti-26.11.23.0-907.pdf",
+    "notes":  "- Izlazni račun - fiskalni račun samo sa unesenom vrstom KIF-a\n- Pazar - knjiženje u robno samo za zaključenu smjenu",
     "download_page":  "https://github.com/SP-VOJVODIC/Public/releases/latest"
 }
