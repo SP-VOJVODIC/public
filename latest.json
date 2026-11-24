@@ -1,9 +1,9 @@
 {
     "product":  "Knjigovodstvo",
-    "version":  "26.11.23.0-907",
-    "asset_name":  "KnjigovodstvoRV-2026-11-23-233756 (26.11.23.0-907).upg",
-    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.23.0.907/KnjigovodstvoRV-2026-11-23-233756.26.11.23.0-907.upg",
-    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.23.0.907/Novosti-26.11.23.0-907.pdf",
-    "notes":  "- Izlazni račun - fiskalni račun samo sa unesenom vrstom KIF-a\n- Pazar - knjiženje u robno samo za zaključenu smjenu",
+    "version":  "26.11.24.0-908",
+    "asset_name":  "KnjigovodstvoRV-2026-11-24-225607 (26.11.24.0-908).upg",
+    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.24.0.908/KnjigovodstvoRV-2026-11-24-225607.26.11.24.0-908.upg",
+    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.24.0.908/Novosti-26.11.24.0-908.pdf",
+    "notes":  "- Dashboard - kupci kojih nema: svi kupci i dug",
     "download_page":  "https://github.com/SP-VOJVODIC/Public/releases/latest"
 }
