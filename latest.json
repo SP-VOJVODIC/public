@@ -1,9 +1,9 @@
 {
     "product":  "Knjigovodstvo",
-    "version":  "26.11.24.0-908",
-    "asset_name":  "KnjigovodstvoRV-2026-11-24-225607 (26.11.24.0-908).upg",
-    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.24.0.908/KnjigovodstvoRV-2026-11-24-225607.26.11.24.0-908.upg",
-    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.24.0.908/Novosti-26.11.24.0-908.pdf",
-    "notes":  "- Dashboard - kupci kojih nema: svi kupci i dug",
+    "version":  "26.11.26.0-910",
+    "asset_name":  "KnjigovodstvoRV-2026-11-26-224158 (26.11.26.0-910).upg",
+    "download_url":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.26.0.910/KnjigovodstvoRV-2026-11-26-224158.26.11.26.0-910.upg",
+    "novosti":  "https://github.com/SP-VOJVODIC/public/releases/download/26.11.26.0.910/Novosti-26.11.26.0-910.pdf",
+    "notes":  "- Dashboard - elementi za upravu sa prefiksom Uprava\n- Fiskalizacija - račun se ne može fiskalizovati dva puta\n- Prijava - panel tastature poslije promjene korisnika",
     "download_page":  "https://github.com/SP-VOJVODIC/Public/releases/latest"
 }
